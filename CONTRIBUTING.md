@@ -15,8 +15,8 @@ Thank you for your interest in contributing to the Aizu Analytics JavaScript SDK
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/aizu-js.git
-   cd aizu-js
+   git clone https://github.com/YOUR_USERNAME/cdn.git
+   cd cdn
    ```
 3. **Install dependencies**:
    ```bash
@@ -86,8 +86,8 @@ Thank you for your interest in contributing to the Aizu Analytics JavaScript SDK
 If you encounter issues or have questions about using the SDK, please:
 
 1. **Check the Documentation**: Review our comprehensive [README](./README.md) and [official documentation](https://docs.aizu.io)
-2. **Search Existing Issues**: Look through [existing issues](https://github.com/AizuLabs/aizu-js/issues) to see if your question has been addressed
-3. **Report Bugs**: If you find a bug, please [open an issue](https://github.com/AizuLabs/aizu-js/issues/new) with:
+2. **Search Existing Issues**: Look through [existing issues](https://github.com/AizuGit/cdn/issues) to see if your question has been addressed
+3. **Report Bugs**: If you find a bug, please [open an issue](https://github.com/AizuGit/cdn/issues/new) with:
    - A clear description of the problem
    - Steps to reproduce the issue
    - Expected vs actual behavior
@@ -97,7 +97,7 @@ If you encounter issues or have questions about using the SDK, please:
 
 For feature requests or suggestions, please:
 
-1. [Open an issue](https://github.com/AizuLabs/aizu-js/issues/new) with the "enhancement" label
+1. [Open an issue](https://github.com/AizuGit/cdn/issues/new) with the "enhancement" label
 2. Provide a detailed description of the proposed feature
 3. Explain the use case and potential benefits
 

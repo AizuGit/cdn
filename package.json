@@ -1,6 +1,6 @@
 {
-  "name": "aizu-js",
-  "version": "0.1.4",
+  "name": "aizu",
+  "version": "0.1.0",
   "description": "Aizu Analytics JavaScript SDK for browser environments",
   "main": "dist/index.cjs",
   "module": "dist/index.esm.js",
@@ -40,14 +40,14 @@
     "javascript",
     "typescript"
   ],
-  "author": "Aizu Labs",
+  "author": "Aizu",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AizuLabs/aizu-js.git"
+    "url": "git+https://github.com/AizuGit/cdn.git"
   },
   "bugs": {
-    "url": "https://github.com/AizuLabs/aizu-js/issues"
+    "url": "https://github.com/AizuGit/cdn/issues"
   },
   "homepage": "https://aizu.io",
   "devDependencies": {

@@ -44,19 +44,19 @@ Use the server-side SDK (aizu-nodejs) with secret keys (`sk_*`) for:
 ## Installation
 
 ```bash
-npm install aizu-js
+npm install aizu
 ```
 
 or
 
 ```bash
-yarn add aizu-js
+yarn add aizu
 ```
 
 ## Quick Start
 
 ```javascript
-import { Aizu } from "aizu-js";
+import { Aizu } from "aizu";
 
 // Initialize the SDK
 const aizu = new Aizu({
@@ -226,7 +226,7 @@ Create an instrumentation file for client-side initialization:
 
 ```javascript
 // instrumentation-client.js
-import { Aizu } from "aizu-js";
+import { Aizu } from "aizu";
 
 const aizu = new Aizu({
   apiKey: process.env.NEXT_PUBLIC_YORIN_PUBLISHABLE_KEY,
@@ -262,7 +262,7 @@ Initialize in your main entry file:
 
 ```javascript
 // main.js or index.js
-import { Aizu } from "aizu-js";
+import { Aizu } from "aizu";
 
 const aizu = new Aizu({
   apiKey: import.meta.env.VITE_YORIN_PUBLISHABLE_KEY, // Vite
@@ -282,7 +282,7 @@ Create a plugin:
 
 ```javascript
 // plugins/aizu.js
-import { Aizu } from "aizu-js";
+import { Aizu } from "aizu";
 
 export default {
   install(app, options) {
@@ -361,7 +361,7 @@ const aizu = new Aizu({
 The SDK includes comprehensive TypeScript definitions:
 
 ```typescript
-import { Aizu, AizuConfig, TrackEventProperties } from "aizu-js";
+import { Aizu, AizuConfig, TrackEventProperties } from "aizu";
 
 const config: AizuConfig = {
   apiKey: "pk_...",
@@ -440,7 +440,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## Support
 
 - Documentation: [https://aizu.io/docs](https://aizu.io/docs)
-- Issues: [GitHub Issues](https://github.com/AizuLabs/aizu-js/issues)
+- Issues: [GitHub Issues](https://github.com/AizuGit/cdn/issues)
 - Email: support@aizu.io
 
 ## Changelog
