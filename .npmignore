@@ -1,0 +1,10 @@
+examples/
+*.map
+src/
+tests/
+.eslintrc.*
+jest.config.*
+rollup.config.*
+tsconfig.json
+*.test.*
+*.spec.*
